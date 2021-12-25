@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background-repeat: no-repeat;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho-nav-items{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-nav-items-link{
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.principal{
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.principal-cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-cima-esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.principal-cima-esquerda-h1{
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.principal-cima-esquerda-h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 46px;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.principal-cima-esquerda-botao{
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.principal-cima-esquerda-botao:hover{
+    background-color: #f8f0e9;
+}
+
+.principal-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.principal-baixo-h3{
+    font-family: 'Righteous', cursive;
+    border-top: 0.4px solid #FFF2E7;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF2E7;
+    padding-top: 60px;
+}
+
+.principal-baixo-item{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 73px;
+}
+.rodape-imagem{
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+}
